@@ -1,0 +1,998 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,100,900,700);
+/* =Common Styles
+-------------------------------------------------------------- */
+/*.index-bg{
+  background-image: url("../images/index.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 580px;
+}*/
+
+.background-idx {
+  background: url("../images/asdf.jpg") no-repeat;
+  background-size: 100%;
+  height: 580px;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+.frame >img{
+  height: auto;
+  width: auto;
+}
+
+.footer-sat {
+    position: relative;
+    bottom: -484px;
+  /*width: 300px;*/
+}
+
+.hor-line >img{
+  /*height: 5px !important;*/
+  width: 60px;
+}
+
+h1{
+  font-family: 'Raleway bold', sans-serif !important;
+}
+
+.menu-satvra{
+  margin-top: 360px;
+}
+
+.about-bg{
+    background-image:url("../images/abt.png");
+    background-size: 100% 100%;
+    background-repeat:no-repeat;
+}
+
+.background-str {
+  background: url("../images/satvra.png") no-repeat;
+  background-size: 100% 100%;
+  height: 780px;
+  /*margin-top:  100px !important;*/
+}
+
+.background-hog {
+  background: url("../images/glassofhouse.png") no-repeat;
+  background-size: 100% 90%;
+  height: 780px;
+  /*margin-top:  100px !important;*/
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#slideshow {
+    margin: 0px auto;
+    position: relative;
+    width: 540px;
+    height: 240px;
+}
+
+.header{
+  padding-top: 10px;
+}
+
+#contact{
+  /*border: white solid 2pt;*/
+}
+
+#team{
+  /*border: white solid 2pt;*/
+}
+
+.hidden>div {
+    display:none;
+}
+
+.visible>div {
+    display:block;
+}
+
+html {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+h4:hover {
+    text-decoration: underline;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+img {
+  vertical-align: middle;
+  max-width: 100%;
+  height: 100px;
+  width: auto;
+}
+
+body {
+	background: #fff;
+	color: #666666;
+	font-family: 'Raleway', sans-serif !important;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+}
+
+section { overflow: hidden; }
+::selection { background: #161a1b; color: #fff; }
+::-moz-selection { background: #161a1b; color: #fff; }
+
+
+/* =Typography
+-------------------------------------------------------------- */
+a {
+    text-decoration: none !important;
+}
+
+h1, h2 { margin: 0; }
+
+h1 {
+	font-size: 80px;
+	font-weight: 800;
+	line-height: 80px;
+	letter-spacing: -0.08em;
+	color: #161a1b;
+}
+
+h2 {
+	font-size: 18px;
+	font-weight: 800;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #161a1b;
+}
+/*
+#countdown div span {
+	display:block;
+	font-size: 50px;
+	line-height: 50px;
+	letter-spacing: initial;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+#countdown div {
+	display:inline-block;
+    margin: 0 34px;
+}*/
+
+.sub-title {
+	font-size: 18px;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+
+/* =Content Styles
+-------------------------------------------------------------- */
+
+.wrapper {
+  text-align: center;
+  position: absolute;
+  overflow: hidden;
+  display: table-cell;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.scene,
+.layer {
+  /*height: 100%;*/
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/*for submission*/
+.layers {
+  /*height: 30%;*/
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.menu-s{
+  position: relative;
+  bottom: 10px;
+}
+
+.layers { position: relative; }
+
+.layers div {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*end of it*/
+
+.scene {
+  position: relative;
+  overflow: hidden;
+}
+
+.layer { position: relative; }
+
+.layer div {
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+.sphere img{
+	-webkit-transform: scale(0.7);
+	-moz-transform: scale(0.7);
+	-ms-transform: scale(0.7,0.7);
+	transform: scale(0.7);
+}
+
+/* Text */
+.title {
+	display: block;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	top: 10%;
+}
+
+.line {
+	display: block;
+	margin: 0 auto;
+	width: 60px;
+	height: 1px;
+	background: #00d9ec;
+	margin-top: 10px;
+}
+
+.contact {
+	display: block;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	text-align: center;
+	bottom: 5%;
+}
+
+.contact .icons {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 18px;
+	text-align: center;
+	list-style: none;
+	list-style-type: none;
+}
+
+.contact .icons li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.contact .icons li:last-of-type { margin-right: 0px; }
+
+.contact .icons li a {
+	display: block;
+	width: 25px;
+	height: 25px;
+	opacity: .5;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	color: black;
+	font-size: 24px;
+}
+
+
+.contact .icons li a:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	-moz-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+}
+
+.contact a.mail {
+	text-decoration: none;
+	color: #161a1b;
+	padding-bottom: 8px;
+	font-size: 15px;
+}
+
+.contact a.mail::after {
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	width: 125px;
+	margin-left: -60px;
+	margin-top: 10px;
+	height: 1px;
+	background: #666666;
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
+	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
+	-webkit-transform: translateY(10px);
+	-moz-transform: translateY(10px);
+	transform: translateY(10px);
+}
+
+.contact a.mail:hover::after, .contact a.mail:focus::after {
+	opacity: 1;
+	-webkit-transform: translateY(0px);
+	-moz-transform: translateY(0px);
+	transform: translateY(0px);
+}
+
+/* Flakes Sizing */
+.depth-5 img, .depth-4 img, .depth-3 img, .depth-2 img, .depth-1 img {
+	-webkit-transform: scale(0.6);
+	-moz-transform: scale(0.6);
+	-ms-transform: scale(0.6,0.6);
+	transform: scale(0.6);
+}
+
+/* Flakes Positioning */
+.depth-5 {
+	position: absolute;
+	right: -100%;
+	top: -24%;
+}
+
+.depth-4 {
+	position: absolute;
+	left: -10%;
+	top: 37%;
+ }
+
+.depth-3.flake1 {
+	display: none;
+}
+
+.depth-3.flake2 {
+	position: absolute;
+	right: 16%;
+	bottom: 20%;
+}
+
+.depth-3.flake3 {
+	position: absolute;
+	left: 10%;
+	bottom: 16%;
+}
+
+.depth-3.flake4 {
+	display: none;
+}
+
+.depth-2.flake1 {
+	display: none;
+}
+
+.depth-2.flake2 {
+	display: none;
+}
+
+.depth-1.flake1 {
+	display: none;
+}
+
+.depth-1.flake2 {
+	position: absolute;
+	right: 40%;
+	top: 50%;
+}
+
+.depth-1.flake3 {
+	display: none;
+}
+
+.depth-1.flake4 {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.layer{
+    list-style: none;
+}
+
+.house-of-glass-text{
+    font-family: "Raleway";
+    font-weight: 100;
+    font-size: 12px;
+    margin-top: 100px;
+    padding: 20px;
+    background: #4E181C;
+    color: #FFF;
+    max-width: 250px;
+    text-align: justify;
+    line-height: 14px;
+}
+
+/* =Animation
+-------------------------------------------------------------- */
+
+@-webkit-keyframes wave {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+  }
+}
+
+@-moz-keyframes wave {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+  }
+}
+
+@-ms-keyframes wave {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+  }
+}
+
+@keyframes wave {
+  0% {
+    -webkit-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    -moz-transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+    transform: rotateZ(0deg) translate3d(0,10%,0) rotateZ(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    -moz-transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+    transform: rotateZ(360deg) translate3d(0,10%,0) rotateZ(-360deg);
+  }
+}
+
+
+/* =404
+-------------------------------------------------------------- */
+
+.snap {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/*background: url(../images/404-background.jpg) no-repeat center;*/
+  background-color: #ffffff
+	background-size: cover;
+	text-align: center;
+}
+
+.snap .line { margin-bottom: 70px; }
+
+.button {
+	display: inline-block;
+	margin-top: 80px;
+	text-decoration: none;
+	font-size: 9px;
+	font-weight: 700;
+	line-height: 1em;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: #161a1b;
+	background: transparent;
+	border: 1px solid rgb(23,26,28);
+	border: 1px solid rgba(23,26,28,.3);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 4px;
+	padding: 15px 25px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.button:hover {
+	background: rgb(23,26,28);
+	color: #fff;
+	border: 1px solid rgb(23,26,28);
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+h4.black.text-right {
+    color: #7a0026;
+}
+
+h1.black.text-right {
+    color: #7a0026;
+}
+
+.footersub{
+  background-image: : url(../images/submission.png);
+}
+
+
+
+/* =Responsive Styles
+-------------------------------------------------------------- */
+/*< 480*/
+@media screen and (max-width: 480px){
+    h1 {
+      font-size: 13px !important;
+      padding-top: 62px;
+      margin-left: 100px;
+      padding-left: 100px;
+    }
+    .button-reg {
+        height: 36px !important;
+            margin-top: 149px !important;
+    }
+    .button-term {
+        height: 36px !important;
+            margin-top: 18px !important;
+    }
+    h4 {
+      font-size: 7px !important;
+      padding-top: -20px !important;
+    }
+    h3 {
+      font-size: 9px !important;
+    }
+    p {
+      font-size: 6px !important;
+    }
+    .photo{
+      height:185px;
+      margin-left:-155px;
+      margin-top: -105px;
+    }
+    .frame{
+      height: 121px;
+    margin-top: 24px;
+    }
+    .logos{
+      height: 15px !important;
+      width: auto;
+    }
+    .photoindex{
+      height: 303px;
+    margin-left: -9px;
+    margin-top: -123px;
+    }
+    .col-md-3.col-sm-6.col-xs-6.idxText {
+      margin-top: 58px;
+    }
+    .subphoto {
+      margin-top: 100px;
+    }
+}
+/*480 - 768 (xs)*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+  h4 {
+    font-size: 10px !important;
+  }
+  h3 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 9px !important;
+  }
+  .logos{
+    height: 35px !important;
+    width: auto;
+  }
+  .frame{
+    height: 500px;
+  }
+  .photo{
+    height:135px;
+    margin-left:-205px;
+    margin-top: -180px !important;
+    padding-top: 900px !important;
+  }
+  .lines {
+      height: 353px;
+  }
+}
+/*768 - 992(sm)*/
+@media screen and (min-width: 768px) and (max-device-width: 992px) {
+  h4 {
+    font-size: 10px !important;
+  }
+  h3 {
+    font-size: 12px !important;
+  }
+  p {
+    font-size: 9px !important;
+  }
+  .logos{
+    height: 35px !important;
+    width: auto;
+    padding-left:23px;
+    margin-top:-8px;
+  }
+  .photo{
+    height:205px;
+    margin-left:-155px;
+    margin-top: -150px;
+  }
+  .lines {
+      height: 353px;
+  }
+}
+/*992 - 1200(md)*/
+@media screen and (min-device-width: 992px) and (max-device-width: 1200px) {
+  .lines {
+      height: 353px;
+  }
+  .photo{
+    height: 158px;
+  margin-left: -155px;
+  margin-top: -22px;
+  }
+  img.logos {
+    height: 26px;
+  }
+
+  .photoindex{
+    height:505px;
+    margin-left:-155px;
+    margin-top: -150px;
+  }
+}
+/*> 1200*/
+@media screen and (min-width: 1200px){
+  .lines {
+      height: 353px;
+  }
+  .frame {
+    height:350px;
+    padding-right:210px;
+  }
+  .photo{
+    height:505px;
+    margin-left:-155px;
+    margin-top: -150px;
+  }
+
+  .photoindex{
+    height: 505px;
+margin-left: -305px;
+margin-top: -156px;
+  }
+
+  img.logos {
+    height: 46px;
+  }
+
+  .buttons{
+    margin-top: 100px;
+    margin-left: -50px;
+  }
+
+  .subphoto{
+    margin-top: 90px;
+  }
+
+  .idx {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .photoindex{
+    width: 300px;
+    /*margin-left: 100px;
+    padding-right:*/
+  }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+      .photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 16px !important;
+      }
+      .satvrap {
+        font-size: 11px !important;
+      }
+
+}
+
+/*------MCZAL STARTS HERE-----------*/
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 18px !important;
+      }
+      .satvrap {
+        font-size: 12px !important;
+		width:85px;
+      }
+	  .idxText{
+		margin-left:-20px;
+	  }
+	  .text-left{
+		font-size: 8px !important;
+		width:100px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:140px;
+		height:140px;
+		margin-left:50px;
+		margin-bottom:80px;
+
+	  }
+	  .frame{
+		width:120px;
+		height:120px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 12px !important;
+      }
+      .satvrap {
+        font-size: 18px !important;
+		width:120px;
+      }
+	  .idxText{
+		marn-left:-20px;
+	  }
+	  .text-left{
+		font-size: 10px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:150px;
+		height:200px;
+		margin-left:50px;
+		margin-bottom:80px;
+
+	  }
+	  .frame{
+		width:120px;
+		height:150px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-20px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  .photo{
+		width:170px;
+		height:200px;
+		margin-left:50px;
+		margin-bottom:80px;
+
+	  }
+	  .frame{
+		width:150px;
+		height:180px;
+		position:absolute;
+		left:125px;
+		bottom:0px;
+		margin-bottom:-20px;
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  .buttons{
+		width: 100px;
+		margin-left: 50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+
+/* ----------- Galaxy S3 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 2) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-24px;
+		padding-top:50px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+	  }
+	  .slideInUp{
+		margin-left:-50px;
+	  }
+	  .buttons{
+		width: 100px;
+		margin-left: 50px;
+	  }
+	  b .text-left{
+		width:400px;
+	  }
+}
+
+/* ----------- Galaxy S4 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 320px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+	.photoindex {
+          width: 1300px;
+      }
+      .satvrah3 {
+        font-size: 17px !important;
+      }
+      .satvrap {
+        font-size: 14px !important;
+      }
+	  .idxText{
+		margin-left:-24px;
+		padding-top:50px;
+	  }
+	  .text-left{
+		font-size: 11px !important;
+		width:120px;
+		margin-left:-10px;
+	  }
+}
+
+/* ----------- Galaxy S5 ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* ----------- HTC One ----------- */
+
+/* Portrait and Landscape */
+@media screen
+  and (device-width: 360px)
+  and (device-height: 640px)
+  and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+
+/*------MCZAL ENDS HERE-------------*/
