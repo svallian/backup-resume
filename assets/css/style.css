@@ -9,9 +9,8 @@
 }*/
 
 .background-idx {
-  background: url("../images/asdf.jpg") no-repeat;
-  background-size: 100%;
-  height: 580px;
+  height: auto;
+  width: 100%;
 }
 
 .center {
