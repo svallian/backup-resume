@@ -1,7 +1,7 @@
 /*image changer*/
+var imageArray = ["../ayenz.github.io/assets/images/1.jpg", "../ayenz.github.io/assets/images/2.jpg", "../ayenz.github.io/assets/images/3.jpg", "../ayenz.github.io/assets/images/4.jpg", "../ayenz.github.io/assets/images/6.jpg", "../ayenz.github.io/assets/images/7.jpg", "../ayenz.github.io/assets/images/8.jpg"];
+var imageIndex = 0;
 $( document ).ready(function() {
-    var imageArray = ["../ayenz.github.io/assets/images/1.jpg", "../ayenz.github.io/assets/images/2.jpg", "../ayenz.github.io/assets/images/3.jpg", "../ayenz.github.io/assets/images/4.jpg", "../ayenz.github.io/assets/images/6.jpg", "../ayenz.github.io/assets/images/7.jpg", "../ayenz.github.io/assets/images/8.jpg"];
-    var imageIndex = 0;
     function changeImageByTimer() {
       bigImage = $('#bigImage');
 
