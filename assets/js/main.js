@@ -1,25 +1,28 @@
 /*image changer*/
-var imageArray = ["../ayenz.github.io/assets/images/1.jpg", "../ayenz.github.io/assets/images/2.jpg", "../ayenz.github.io/assets/images/3.jpg", "../ayenz.github.io/assets/images/4.jpg", "../ayenz.github.io/assets/images/6.jpg", "../ayenz.github.io/assets/images/7.jpg", "../ayenz.github.io/assets/images/8.jpg"];
-var imageIndex = 0;
-function changeImageByTimer() {
-  bigImage = $('#bigImage');
+$( document ).ready(function() {
+    var imageArray = ["../ayenz.github.io/assets/images/1.jpg", "../ayenz.github.io/assets/images/2.jpg", "../ayenz.github.io/assets/images/3.jpg", "../ayenz.github.io/assets/images/4.jpg", "../ayenz.github.io/assets/images/6.jpg", "../ayenz.github.io/assets/images/7.jpg", "../ayenz.github.io/assets/images/8.jpg"];
+    var imageIndex = 0;
+    function changeImageByTimer() {
+      bigImage = $('#bigImage');
 
-  bigImage.animate({opacity: .1 }, function() {
-    $(this).attr('src', imageArray[imageIndex]);
+      bigImage.animate({opacity: .1 }, function() {
+        $(this).attr('src', imageArray[imageIndex]);
 
-  });
+      });
 
-  imageIndex++;
-  console.log(imageIndex)
+      imageIndex++;
+      console.log(imageIndex)
 
-  if (imageIndex >= 7) {
-    imageIndex = 0;
-  }
+      if (imageIndex >= 7) {
+        imageIndex = 0;
+      }
 
-  bigImage.animate({opacity: 1})
-}
+      bigImage.animate({opacity: 1})
+    }
 
-var imgTimer = setInterval(changeImageByTimer, 5000);
+    var imgTimer = setInterval(changeImageByTimer, 5000);
+});
+
 
 /*----------------------------*/
 $(window).load(function(){
