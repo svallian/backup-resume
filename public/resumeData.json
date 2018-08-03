@@ -1,0 +1,145 @@
+{
+  "main": {
+    "name":"Stillmen Vallian",
+    "occupation":"Software Engineer",
+    "description":"I'm a fresh graduate from Parahyangan Catholic University (UNPAR) majoring in Informatics Engineering. Love to work with new technologies",
+    "image":"profilepic.jpg",
+    "bio":"Hi, I'm fresh graduate from Parahyangan Catholic University majoring in Informatics Engineering. I have expertise for use programming language like Java, PHP and HTML. Recently, I'm learning React.js (front-end framework) for self improvement.",
+    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "stillmen.v@gmail.com",
+    "phone": "+628-7788-90-7788",
+    "address":{
+      "street":"Jalan Bukit Jarian No.46A",
+      "city":"Bandung",
+      "state":"Jawa Barat",
+      "zip": "40141"
+    },
+    "website": "http://ayenz.github.io/",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/stillmen.vallian",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com/stillmenvallian",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/stillmen_jr",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/stillmen-vallian/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"whatsapp",
+        "url":"https://wa.me/+6287788907788",
+        "className":"fa fa-whatsapp"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/ayenz",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Many technologies that can be used for developing applications. Here are the technologies that i love to discovering/playing around with them.",
+    "education":[
+      {
+        "school":"Parahyangan Catholic University",
+        "degree":"Bachelor's degree, Information Technology",
+        "graduated":"September 2018",
+        "description":"I took my Bachelor's of Information Technology at Parahyangan Catholic University and achieved a much more thorough education in the underlying theory, concepts, and science behind more complex programming. It was here that I discovered many new technologies to create application programming (web and mobile)."
+      }
+    ],
+    "work":[
+      {
+        "company":"Anime Festival Asia (AFA) 2015",
+        "title":"Photographer",
+        "years":"September 2015",
+        "description":"Working under an event organizer named SOZO with a photographer job. Documenting the event for 3 days in the form of photos and videos"
+      }
+    ],
+    "techs":[
+      {
+        "name":"Java",
+        "source":"images/java.jpg",
+        "description":"Java was my first programming language that I started using in college 4 years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming"
+      },
+      {
+        "name":"Git",
+        "source":"images/git.jpg",
+        "description":"I use Git for all of my projects so far. I have used Git for version control for developing some software. GitHub is one that I often use"
+      },
+      {
+        "name":"React.js",
+        "source":"images/react.jpg",
+        "description":"I am really new to React and really enjoy to discovering this framework. It has grown on me though and I will continue to use it for developing some front-end website."
+      },
+      {
+        "name":"CodeIgniter",
+        "source":"images/ci.png",
+        "description":"CodeIgniter (CI) was my first framework to developing full stack website. CodeIgniter has many features can facilitate users in developing a website. I also use this framework to build website for thesis purpose (below in portfolio)"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"60%"
+      },
+      {
+        "name":"Illustrator",
+        "level":"55%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"90%"
+      },
+      {
+        "name":"HTML5",
+        "level":"80%"
+      },
+      {
+        "name":"VueJs",
+        "level":"50%"
+      },
+      {
+        "name":"MongoDB",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"SharIF Judge",
+        "category":"Online Judge for Thesis Purpose",
+        "image":"sharifjudge.png",
+        "url":"https://github.com/ayenz/Sharif-Judge"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user":"Kareem Abdul Jabbar"
+      },
+      {
+        "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user":"Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
