@@ -50,7 +50,7 @@
     ]
   },
   "resume":{
-    "skillmessage":"Many technologies that can be used for developing applications. Here are the technologies that i love to discovering/playing around with them.",
+    "skillmessage":"Many technologies that can be used for developing applications. Here are the technologies that i love to discovering/playing around with.",
     "education":[
       {
         "school":"Parahyangan Catholic University",
@@ -70,53 +70,23 @@
     "techs":[
       {
         "name":"Java",
-        "source":"images/java.jpg",
+        "source":"images/java.png",
         "description":"Java was my first programming language that I started using in college 4 years ago. It is by far the language I am most familiar with in terms of data-structure and algorithm programming"
       },
       {
         "name":"Git",
-        "source":"images/git.jpg",
+        "source":"images/git.svg",
         "description":"I use Git for all of my projects so far. I have used Git for version control for developing some software. GitHub is one that I often use"
       },
       {
         "name":"React.js",
-        "source":"images/react.jpg",
+        "source":"images/react.svg",
         "description":"I am really new to React and really enjoy to discovering this framework. It has grown on me though and I will continue to use it for developing some front-end website."
       },
       {
         "name":"CodeIgniter",
         "source":"images/ci.png",
         "description":"CodeIgniter (CI) was my first framework to developing full stack website. CodeIgniter has many features can facilitate users in developing a website. I also use this framework to build website for thesis purpose (below in portfolio)"
-      }
-    ],
-    "skills":[
-      {
-        "name":"Git",
-        "level":"60%"
-      },
-      {
-        "name":"Illustrator",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
-        "name":"CSS",
-        "level":"90%"
-      },
-      {
-        "name":"HTML5",
-        "level":"80%"
-      },
-      {
-        "name":"VueJs",
-        "level":"50%"
-      },
-      {
-        "name":"MongoDB",
-        "level":"80%"
       }
     ]
   },
@@ -127,6 +97,12 @@
         "category":"Online Judge for Thesis Purpose",
         "image":"sharifjudge.png",
         "url":"https://github.com/ayenz/Sharif-Judge"
+      },
+      {
+        "title":"Unpar Apps Landing Page",
+        "category":"Landing page for Unpar Apps promotion",
+        "image":"unparapps.png",
+        "url":"https://ayenz.github.io/unpar-Apps-Landing-Page/"
       }
     ]
   },
