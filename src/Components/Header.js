@@ -27,6 +27,7 @@ class Header extends Component {
             <li><a className="smoothscroll" href="#about">About</a></li>
 	          <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+            <li><a href="https://ayenz.github.io" target="_blank" rel="noopener noreferrer">Photograpy Resume</a></li>
          </ul>
 
       </nav>
@@ -34,7 +35,7 @@ class Header extends Component {
       <div className="row banner">
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>A <span>{city}</span> based <span>{occupation}</span>. {description}.</h3>
+            <h3><span>A {city} based {occupation}. {description}.</span></h3>
             <hr />
             <ul className="social">
                {networks}

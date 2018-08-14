@@ -17,7 +17,7 @@ class Resume extends Component {
         </div>
       })
       var techs = this.props.data.techs.map(function(techs){
-          return <div className="columns feature-item">
+          return <div className="columns feature-item" key="">
         <img className="skill" alt='' src={techs.source}/>
         <h5 className="techn" >{techs.name}</h5>
         <p>{techs.description}</p></div>
@@ -55,8 +55,8 @@ class Resume extends Component {
 
 
 
-      <div className="row skill">
-           <div className="three columns header-col">
+      <div className="row skill" id="tech">
+           <div className="three columns header-col" >
               <h1><span>Techs</span></h1>
            </div>
 
